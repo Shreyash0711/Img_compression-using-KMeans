@@ -41,14 +41,3 @@ For each cluster count, we:
    - Compressed size in bits: `k × 3 × 32 (cluster centers)` + `num_pixels × log2(k) (labels)`
 7. **Convert to KB** and compute compression ratio.
 
----
-
-## ▶️ How to Run
-
-### Requirements
-- Python 3.x
-- `numpy`, `matplotlib`, `scikit-learn`, `scikit-image`
-
-### Run the script
-```bash
-python image_compression_kmeans.py
